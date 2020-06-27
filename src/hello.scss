@@ -1,0 +1,15 @@
+$main-Color:#e90000;
+body{
+  background: #aaa;
+  div {
+    margin:2rem;
+    padding:1rem;
+    border:1px solid $main-Color;
+    background-image: url("../assets/img_tree.gif"), url("../assets/paper.gif");
+    background-repeat: no-repeat, repeat;
+  }
+}
+
+.box {
+  display: flex;
+}
